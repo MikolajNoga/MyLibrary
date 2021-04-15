@@ -8,6 +8,7 @@ public class Book {
     private String imageUrl;
     private String shortDec;
     private String longDec;
+    private boolean isExpanded;
 
     public Book(long id, String name, String author, int pages, String imageUrl, String shortDec, String longDec) {
         this.id = id;
@@ -17,6 +18,15 @@ public class Book {
         this.imageUrl = imageUrl;
         this.shortDec = shortDec;
         this.longDec = longDec;
+        isExpanded = false;
+    }
+
+    public boolean isExpanded() {
+        return isExpanded;
+    }
+
+    public void setExpanded(boolean expanded) {
+        isExpanded = expanded;
     }
 
     public long getId() {
