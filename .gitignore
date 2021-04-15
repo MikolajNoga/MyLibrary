@@ -9,7 +9,7 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
-/captures
+/capturesgit remote add origin https://github.com/MikolajNoga/MyLibrary.git
 .externalNativeBuild
 .cxx
 local.properties
