@@ -7,7 +7,7 @@
     app:cardCornerRadius="7dp"
     app:cardElevation="7dp"
     android:layout_margin="5dp"
-    android:backgroundTint="#44bcd8">
+    android:backgroundTint="#01657C">
 
     <RelativeLayout
         android:layout_width="200dp"
@@ -34,7 +34,8 @@
                 android:layout_below="@+id/imgBook"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="25dp"
-                android:id="@+id/txtBookName"/>
+                android:id="@+id/txtBookName"
+                android:textColor="@color/white"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -53,20 +54,22 @@
             android:layout_below="@+id/collapsedRelLayout"
             android:id="@+id/expandedRelLayout"
             android:layout_margin="5dp"
-            android:visibility="gone">
+            android:visibility="visible">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Author: "
-                android:id="@+id/authorTxt"/>
+                android:id="@+id/authorTxt"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Unknown"
                 android:id="@+id/txtAuthor"
-                android:layout_below="@+id/authorTxt"/>
+                android:layout_below="@+id/authorTxt"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -74,7 +77,8 @@
                 android:text="Short Description"
                 android:id="@+id/txtShortDec"
                 android:layout_below="@+id/txtAuthor"
-                android:layout_marginTop="5dp"/>
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"/>
 
             <ImageView
                 android:layout_width="wrap_content"
